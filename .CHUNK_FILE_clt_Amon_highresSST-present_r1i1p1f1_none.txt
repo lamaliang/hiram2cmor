@@ -1,0 +1,1 @@
+.//CMIP6/HighResMIP/AS-RCEC/HiRAM-SIT-HR/highresSST-present/r1i1p1f1/Amon/clt/gn/v20201118/clt_Amon_HiRAM-SIT-HR_highresSST-present_r1i1p1f1_gn_195001-195012.nc

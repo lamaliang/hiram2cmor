@@ -1,0 +1,12 @@
+ &input
+     in_file_name =  '/lfs/archive/HiRAM/raw/c384_cmip6/combined/19501201/atmos_month_19501201.nc' ,
+     out_file_name =   'c384_cmip6.19501201.mc_full.nc' ,
+    field_names(1) =  'mc_full' ,
+    do_all_3d_fields = .false.,
+    do_all_fields = .false.,
+    allow_zero_sphum = .false.,
+    allow_zero_topog = .false.,
+    mask_extrap = .false.,
+    use_default_missing_value = .false.,
+    verbose = 1,
+ /

@@ -1,0 +1,53 @@
+&parameter cmor_name=ccb           name="conv_cld_base"  project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=cct           name="conv_cld_top"   project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=cfc11global   name="rrvf11"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=cfc12global   name="rrvf12"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=ch4global     name="rrvch4"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=ci            name="conv_freq"      project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=cl            name="cl"             project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=cli           name="cli"            project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=clivi         name="IWP_all_clouds" project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=clt           name="tot_cld_amt"    project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=clw           name="clw"            project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=clwvi         name="WP_all_clouds"  project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=co2mass       name="co2mass"        project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=evspsbl       name="evap"           project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=hfls          name="evap_heat"      project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=hfss          name="shflx"          project_mip_table="Amon"   cell_methods="m" positive="u" units="W m-2" /
+&parameter cmor_name=hus           name="sphum"          project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=hur           name="rh"             project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=hurs          name="rh_ref"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=huss          name="q_ref"          project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=mc            name="mc_full"        project_mip_table="Amon"   cell_methods="m" positive="u" z_axis="plev19" /
+&parameter cmor_name=n2oglobal     name="rrvn2o"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=pr            name="precip"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=prc           name="prec_conv"      project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=prsn          name="snow_tot"       project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=prw           name="WVP"            project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=ps            name="ps"             project_mip_table="Amon"   cell_methods="m" units="Pa" /
+&parameter cmor_name=psl           name="slp"            project_mip_table="Amon"   cell_methods="m" units="Pa" /
+&parameter cmor_name=rlds          name="lwdn_sfc"       project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=rldscs        name="lwdn_sfc_clr"   project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=rlus          name="lwup_sfc"       project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=rlut          name="olr"            project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="u" /
+&parameter cmor_name=rlutcs        name="olr_clr"        project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="u" /
+&parameter cmor_name=rsds          name="swdn_sfc"       project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=rsdscs        name="swdn_sfc_clr"   project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=rsdt          name="swdn_toa"       project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=rsus          name="swup_sfc"       project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="u" /
+&parameter cmor_name=rsuscs        name="swup_sfc_clr"   project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="u" /
+&parameter cmor_name=rsut          name="swup_toa"       project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="u" /
+&parameter cmor_name=rsutcs        name="swup_toa_clr"   project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="u" /
+&parameter cmor_name=rtmt          name="netrad_1_Pa"    project_mip_table="Amon"   cell_methods="m" units="W m-2" positive="d" /
+&parameter cmor_name=sfcWind       name="wind_ref"       project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=ta            name="temp"           project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=tas           name="t_ref"          project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=tasmax        name="t_ref_max"      project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=tasmin        name="t_ref_min"      project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=tauu          name="tau_x"          project_mip_table="Amon"   cell_methods="m" units="Pa" positive="d" /
+&parameter cmor_name=tauv          name="tau_y"          project_mip_table="Amon"   cell_methods="m" units="Pa" positive="d" /
+&parameter cmor_name=ts            name="t_surf"         project_mip_table="Amon"   cell_methods="m" /
+&parameter cmor_name=ua            name="ucomp"          project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=va            name="vcomp"          project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=wap           name="omega"          project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
+&parameter cmor_name=zg            name="hght"           project_mip_table="Amon"   cell_methods="m" z_axis="plev19" /
